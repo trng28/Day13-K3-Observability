@@ -4,7 +4,7 @@
 
 - Tên nhóm:
 - Repository URL:
-- Commit SHA cuối:
+- Commit SHA cuối: 7203617
 - Thành viên và vai trò:
 
 ## 2. Kết quả kỹ thuật
@@ -52,4 +52,4 @@ Với mỗi thành viên, ghi rõ nhiệm vụ và link commit/PR tương ứng.
 
 | Thành viên | Phần việc | Commit/PR | Điều đã học |
 |---|---|---|---|
-| Nguyễn Thị Khánh Ly | CP1 - Structured Logging, Correlation ID & PII: hoàn thiện middleware correlation ID, enrich log context, bật PII scrubbing, thêm PII patterns, liên kết correlation ID vào Langfuse trace, bổ sung `error_rate_pct` và lưu evidence. | | Hiểu cách dùng `structlog.contextvars` để truyền metadata theo từng request, vì sao cần `clear_contextvars()` để tránh rò context giữa requests, và cách nối log với trace bằng `correlation_id`. |
+| Nguyễn Thị Khánh Ly | CP1 - Structured Logging, Correlation ID & PII: hoàn thiện middleware correlation ID, enrich log context, bật PII scrubbing, thêm PII patterns, liên kết correlation ID vào Langfuse trace, bổ sung `error_rate_pct` và lưu evidence. | Commit: 7203617 | Hiểu cách dùng `structlog.contextvars` để truyền metadata theo từng request, vì sao cần `clear_contextvars()` để tránh rò context giữa requests, và cách nối log với trace bằng `correlation_id`. |
