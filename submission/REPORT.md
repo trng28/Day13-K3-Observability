@@ -10,7 +10,7 @@
 ## 2. Kết quả kỹ thuật
 
 - Điểm `validate_logs.py`:
-- Tổng số traces: >= 10 traces
+- Tổng số traces: 70 
 - Số PII leak còn lại:
 - Link/đường dẫn dashboard:
 
@@ -26,7 +26,6 @@
 - Prompt name: day13-chat
 - Version/label baseline: Version 1 (label: baseline)
 - Version/label candidate: Version 2 (label: candidate)
-- Trace ID của mỗi version:
 - Bằng chứng đổi label hoặc rollback: submission/evidence/prompt_version.png, submission/evidence/prompt_rollback_v1.png, submission/evidence/prompt_rollback_v2.png
 
 
