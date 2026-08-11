@@ -38,7 +38,7 @@ Trong lab này, Langfuse dùng cho trace và prompt versioning; nguồn chuẩn 
 ## 15 phút đầu
 
 1. Làm theo [SETUP.md](SETUP.md).
-2. Chạy API: `uvicorn app.main:app --reload --env-file .env`.
+2. Chạy API: `python -m uvicorn app.main:app --reload --env-file .env`.
 3. Ở terminal khác, chạy: `python scripts/load_test.py`.
 4. Mở `data/logs.jsonl` và ghi lại những trường còn thiếu.
 5. Chạy `python scripts/validate_logs.py` để lấy baseline.
@@ -74,6 +74,11 @@ submission/   báo cáo và evidence phải nộp
 ## Tài liệu cần đọc
 
 - [CHECKPOINTS.md](CHECKPOINTS.md): tiến độ và đầu ra từng mốc.
+- [docs/checkpoint_0.md](docs/checkpoint_0.md): setup, health check và baseline.
+- [docs/checkpoint_1.md](docs/checkpoint_1.md): logging, correlation ID và PII.
+- [docs/checkpoint_2.md](docs/checkpoint_2.md): metrics, traces, prompt version và dashboard.
+- [docs/checkpoint_3.md](docs/checkpoint_3.md): quy trình điều tra challenge chính thức.
+- [docs/checkpoint_4.md](docs/checkpoint_4.md): báo cáo, kiểm tra, commit và demo.
 - [RULES.md](RULES.md): quy định của bài lab.
 - [SUBMISSION.md](SUBMISSION.md): cấu trúc bài nộp.
 - [RUBRIC.md](RUBRIC.md): cách chấm tối đa 100 điểm.
