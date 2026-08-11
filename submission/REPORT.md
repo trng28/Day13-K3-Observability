@@ -34,11 +34,11 @@ Nguyễn Thị Tuyết Mai | 2A202601693
 
 ## 4. Prompt versioning
 
-- Prompt name:
-- Version/label baseline:
-- Version/label candidate:
-- Trace ID của mỗi version:
-- Bằng chứng đổi label hoặc rollback:
+- Prompt name: day13-chat
+- Version/label baseline: Version 1 (label: baseline)
+- Version/label candidate: Version 2 (label: candidate)
+- Bằng chứng đổi label hoặc rollback: submission/evidence/prompt_version.png, submission/evidence/prompt_rollback_v1.png, submission/evidence/prompt_rollback_v2.png
+
 
 ## 5. Dashboard, SLO và alerts
 
