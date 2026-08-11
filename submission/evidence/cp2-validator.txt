@@ -1,0 +1,8 @@
+CP2 automated verification
+
+pytest: 29 passed
+dashboard: HỢP LỆ - 6/6 panels
+alert rules: 3/3 valid symptom-based rules
+log validator: 100/100
+PII leaks: 0
+unique correlation IDs in logs: 22
