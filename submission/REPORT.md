@@ -78,9 +78,9 @@
 
 | PR | Tác giả | Nội dung có bằng chứng trong diff | Quy mô | Trạng thái |
 |---|---|---|---:|---|
-| [#1 — Complete CP1 structured logging, correlation ID, and PII scrubbing](https://github.com/trng28/Day13-K3-Observability/pull/1) | `ngnkhanhly7` — Nguyễn Thị Khánh Ly | Hoàn thiện middleware correlation ID, log enrichment, PII scrubbing, metrics/error handling; cập nhật load test, report và evidence CP1 | 5 commits, 12 files, +66/−37 | Merged, merge commit `189d77b` |
-| [#2 — Complete AI observability checkpoints](https://github.com/trng28/Day13-K3-Observability/pull/2) | `trng28` — Nguyễn Mai Thanh Trúc | Hoàn thiện CP1–CP3, tests, dashboard contract, alert/runbook, prompt setup, incident investigation, pytest Windows isolation và tài liệu checkpoint | 2 commits, 34 files, +1.259/−66 | Merged, merge commit `a4053a3` |
-| [#3 — Feat/tracing prompt evidence](https://github.com/trng28/Day13-K3-Observability/pull/3) | `nguyenmaihi` — Nguyễn Thị Tuyết Mai | Bổ sung Langfuse tracing evidence, prompt version/rollback screenshots, trace waterfall evidence và cập nhật report | 3 commits, 10 files, +12/−6 | Merged, merge commit `4606a9c` |
+| [#1. Complete CP1 structured logging, correlation ID, and PII scrubbing](https://github.com/trng28/Day13-K3-Observability/pull/1) | `ngnkhanhly7` — Nguyễn Thị Khánh Ly | Hoàn thiện middleware correlation ID, log enrichment, PII scrubbing, metrics/error handling; cập nhật load test, report và evidence CP1 | 5 commits, 12 files, +66/−37 | Merged, merge commit `189d77b` |
+| [#2. Complete AI observability checkpoints](https://github.com/trng28/Day13-K3-Observability/pull/2) | `trng28` — Nguyễn Mai Thanh Trúc | Hoàn thiện CP1–CP3, tests, dashboard contract, alert/runbook, prompt setup, incident investigation, pytest Windows isolation và tài liệu checkpoint | 2 commits, 34 files, +1.259/−66 | Merged, merge commit `a4053a3` |
+| [#3. Feat/tracing prompt evidence](https://github.com/trng28/Day13-K3-Observability/pull/3) | `nguyenmaihi` — Nguyễn Thị Tuyết Mai | Bổ sung Langfuse tracing evidence, prompt version/rollback screenshots, trace waterfall evidence và cập nhật report | 3 commits, 10 files, +12/−6 | Merged, merge commit `4606a9c` |
 
 ### Đóng góp cá nhân
 
