@@ -10,7 +10,7 @@
 ## 2. Kết quả kỹ thuật
 
 - Điểm `validate_logs.py`:
-- Tổng số traces:
+- Tổng số traces: >= 10 traces
 - Số PII leak còn lại:
 - Link/đường dẫn dashboard:
 
@@ -18,16 +18,17 @@
 
 - Evidence correlation ID:
 - Evidence PII redaction:
-- Evidence trace waterfall:
-- Giải thích một span đáng chú ý:
+- Evidence trace waterfall: submission/evidence/trace_waterfall_v1.png, submission/evidence/trace_waterfall_v2.png
+- Giải thích một span đáng chú ý: Span `run` đại diện cho execution generation gọi model `claude-sonnet-4-5`, ghi nhận thời gian xử lý, tokens in/out, chi phí (cost) và metadata liên kết trực tiếp với managed prompt trên Langfuse.
 
 ## 4. Prompt versioning
 
-- Prompt name:
-- Version/label baseline:
-- Version/label candidate:
+- Prompt name: day13-chat
+- Version/label baseline: Version 1 (label: baseline)
+- Version/label candidate: Version 2 (label: candidate)
 - Trace ID của mỗi version:
-- Bằng chứng đổi label hoặc rollback:
+- Bằng chứng đổi label hoặc rollback: submission/evidence/prompt_version.png, submission/evidence/prompt_rollback_v1.png, submission/evidence/prompt_rollback_v2.png
+
 
 ## 5. Dashboard, SLO và alerts
 

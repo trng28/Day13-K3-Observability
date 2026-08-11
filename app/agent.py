@@ -81,6 +81,12 @@ class LabAgent:
             quality_score=quality_score,
         )
 
+        if tracing_enabled() and hasattr(langfuse_client, "flush"):
+            try:
+                langfuse_client.flush()
+            except Exception:
+                pass
+
         return AgentResult(
             answer=response.text,
             latency_ms=latency_ms,
