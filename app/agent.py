@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import time
 from dataclasses import dataclass
+from structlog.contextvars import get_contextvars
 
 from structlog.contextvars import get_contextvars
 
@@ -59,7 +60,13 @@ class LabAgent:
             user_id=hash_user_id(user_id),
             session_id=session_id,
             tags=["lab", feature, self.model],
-            metadata=trace_metadata,
+            metadata={
+                "correlation_id": get_contextvars().get("correlation_id", "MISSING"),
+                "prompt_name": prompt.name,
+                "prompt_label": prompt.label,
+                "prompt_version": prompt.version,
+                "prompt_source": prompt.source,
+            },
         )
         langfuse_client.update_current_generation(
             model=self.model,
